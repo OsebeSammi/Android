@@ -1,4 +1,4 @@
 Android
 ======= 
 
-This is be the repo for  my Droid recipes
+This is the repo for  my Droid recipes
