@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello World, MainActivity"
+            />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Geo"
+            android:id="@+id/button" android:onClick="geo" android:singleLine="true"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/button1" android:layout_gravity="left|center_vertical" android:onClick="email"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Play"
+            android:id="@+id/button2" android:layout_gravity="left|center_vertical" android:onClick="googlePlay"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Binary Content"
+            android:id="@+id/button3" android:layout_gravity="left|center_vertical"
+            android:onClick="sendBinaryContent"/>
+</LinearLayout>
+
