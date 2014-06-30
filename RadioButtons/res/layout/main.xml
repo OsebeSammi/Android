@@ -9,5 +9,37 @@
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
             />
+    <RadioGroup
+            android:id="@+id/rdbGp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <RadioButton
+                android:id="@+id/rdb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="Option 1" />
+        <RadioButton
+                android:id="@+id/rdb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="Option 2"
+                android:checked="true"/>
+    </RadioGroup>
+
+    <CheckBox
+            android:id="@+id/chkAutosave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Autosave" />
+    <CheckBox
+            android:id="@+id/star"
+            style="?android:attr/starStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
 </LinearLayout>
 
